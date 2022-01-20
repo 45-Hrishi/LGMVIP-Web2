@@ -1,0 +1,30 @@
+.users{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 35px;
+    padding: 150px 120px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0.75)), url(./bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.card {
+    box-shadow: 0 5px 5px rgba(255, 238, 0, 0.705);
+    background: #fff;
+    transition: all .3s ease-out;
+}
+
+.card:hover {
+    box-shadow: 0 7px 10px #0dcaf0;
+    transform: scale(1);
+    background: #0dcaf0;
+    cursor: pointer;
+}
+.avatar {
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    object-fit: cover;
+}
